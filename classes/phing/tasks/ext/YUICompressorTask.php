@@ -29,7 +29,6 @@ require_once 'phing/Task.php';
  * @package   phing.tasks.ext
  */
 class YUICompressorTask extends Task {
-
 	/**
 	 * Contains the path info of our file to allow us to parse.
 	 * @var array
@@ -338,4 +337,3 @@ class YUICompressorTask extends Task {
 		return array($return, $output);
 	}
 }
-
